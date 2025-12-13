@@ -125,4 +125,46 @@ nav ul li:hover{
 .iphone11pro img{
     width:700px;
     border: none;
+    padding-bottom: 0;
+}
+
+.iphone11{
+    width:100%;
+    background: #fafafa;
+    text-align: center;
+    padding-top: 20px;
+}
+.iphone11 h2{
+ padding-top: 50px;
+ padding-bottom: 5px;
+ font-size: 50px;
+}
+.iphone11 h4{
+    font-weight: 300;
+    font-size: 25px;
+}
+.iphone11 .description{
+    font-weight: 300;
+    font-size: 16px;
+    padding:5px 0;
+}
+.iphone11 div{
+    display: flex;
+    justify-content: center;
+}
+.iphone11 div p{
+    margin-left: 10px;
+}
+.iphone11 div p a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.iphone11 div p a:hover{
+    text-decoration: underline;
+}
+
+.iphone11 img{
+    width:1300px;
+    border: none;
+    padding-bottom: 0;
 }
