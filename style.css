@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Outfit:wght@100..900&family=Poiret+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+nav{
+    background: #000;
+    color:#fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav div{
+    margin-right: 60px;
+}
+nav div img{
+    width:50px;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left:40px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav ul li img{
+    width: 20px;
+    height: 20px;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s;
+}
