@@ -168,3 +168,20 @@ nav ul li:hover{
     border: none;
     padding-bottom: 0;
 }
+.cards{
+    width: 100%;
+}
+.cards .card_container{
+    width:100%;
+    display: flex;
+   justify-content: center;
+}
+
+.cards .card_container .watch img{
+    width:600px;
+    height: 600px;
+}
+.cards .card_container .paymentCard img{
+    width:600px;
+    height: 600px;
+}
