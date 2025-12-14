@@ -170,6 +170,7 @@ nav ul li:hover{
 }
 .cards{
     width: 100%;
+    padding-top: 30px;
 }
 .cards .card_container{
     width:100%;
@@ -177,11 +178,24 @@ nav ul li:hover{
    justify-content: center;
 }
 
+
 .cards .card_container .watch img{
-    width:600px;
-    height: 600px;
+    width:400px;
+    height: 300px;
 }
 .cards .card_container .paymentCard img{
-    width:600px;
-    height: 600px;
+    width:400px;
+    height: 300px;
+}
+.watch .watch_img img{
+    width:200px !important;
+    height: 70px !important;
+}
+.watch {
+    text-align: center;
+    margin-right: 50px;
+}
+.paymentCard .card_img img{
+    width:200px !important;
+    height: 70px !important;
 }
