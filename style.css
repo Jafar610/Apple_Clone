@@ -176,6 +176,7 @@ nav ul li:hover{
     width:100%;
     display: flex;
    justify-content: center;
+   margin-top: 20px;
 }
 
 
@@ -189,13 +190,85 @@ nav ul li:hover{
 }
 .watch .watch_img img{
     width:200px !important;
-    height: 70px !important;
+    height: 60px !important;
+    margin-bottom: 10px;
 }
 .watch {
     text-align: center;
     margin-right: 50px;
 }
+.watch div{
+    display: flex;
+}
+.watch div p{
+    margin-left: 20px;
+    padding-top:20px;
+}
+.watch div p a{
+    text-decoration: none;
+}
 .paymentCard .card_img img{
-    width:200px !important;
-    height: 70px !important;
+    width:300px !important;
+    height: 40px !important;
+    margin-top: 10px;
+}
+.paymentCard div{
+    display: flex;
+   
+}
+.paymentCard div p{
+    margin-left: 20px;
+    padding: 20px 0;
+
+}
+.paymentCard div p a{
+    text-decoration: none;
+}
+.tv{
+    margin-right: 40px;
+}
+.tv .tv_logo img{
+    width:40px;
+    height: 40px;
+    position: absolute;
+    left: 35%;
+}
+
+.tv img{
+    width:400px;
+    height: 400px;
+}
+.servant img{
+    width:100px ;
+    height: 40px;
+    position: absolute;
+}
+.airpod{
+    text-align: center;
+}
+
+.airpod img{
+    width:400px;
+    height:300px;
+}
+
+.airpod div{
+    display: flex;
+    justify-content: center;
+    background:#000;
+}
+.airpod h1{
+    background-color: #000;
+    color: #fff;
+    padding-top: 20px;
+}
+.airpod p{
+    background-color: #000;
+    color: #fff;
+    padding-top: 10px;
+}
+.airpod div p a{
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top: 10px;
 }
