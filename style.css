@@ -272,3 +272,19 @@ nav ul li:hover{
     text-decoration: none;
     margin-top: 10px;
 }
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: #e9e6e6;
+    margin-top: 20px;
+}
+footer div{
+    padding-top: 20px;
+}
+footer div h3{
+    padding: 10px 0;
+}
+footer div p{
+    padding: 5px 0;
+}
